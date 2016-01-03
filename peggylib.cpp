@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
+#ifdef _WIN32
 
 #include "Tools.h"
 #include "PeggyLib.h"
@@ -20,3 +18,5 @@ void loop()
 {
 	// keep this empty
 }
+
+#endif

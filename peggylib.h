@@ -2,6 +2,9 @@
 // ENGINE V 0.1.0
 ////////////////////////////////////////////////////////////////////////////////////////////
 
+#ifndef __PEGGYLIB_H__
+#define __PEGGYLIB_H__
+
 #define FB_W 25
 #define FB_H 25
 
@@ -501,3 +504,5 @@ int random(int min, int max)
 }
 
 #endif
+
+#endif // __PEGGYLIB_H__

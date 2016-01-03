@@ -197,3 +197,4 @@ FakesAssemblies/
 
 # custom
 SDL2.dll
+build/*.exe

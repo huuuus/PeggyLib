@@ -73,14 +73,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\PeggyLib.h" />
-    <ClInclude Include="..\src\Tools.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\src\PeggyLib.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\.gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\peggylib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\peggylib.h" />
+    <ClInclude Include="..\tools.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

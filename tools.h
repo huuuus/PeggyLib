@@ -1,3 +1,6 @@
+#ifndef __TOOLS_H__
+#define __TOOLS_H__
+
 typedef unsigned char uint8_t;
 typedef char s8;
 
@@ -51,3 +54,5 @@ uint8_t max_u8(uint8_t x, uint8_t y)
 	else
 		return y;
 }
+
+#endif // __TOOLS_H__

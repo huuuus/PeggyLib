@@ -11,11 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\Luminion.h" />
-    <ClInclude Include="..\src\Slot.h" />
+    <ClInclude Include="..\Luminion.h" />
+    <ClInclude Include="..\Slot.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\Sapin.ino">
+    <ClCompile Include="..\Sapin.ino">
       <FileType>Document</FileType>
     </ClCompile>
   </ItemGroup>

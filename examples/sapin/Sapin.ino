@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-
 #ifndef _WIN32
 #include "Arduino.h"
 #include <avr/io.h> 
@@ -10,8 +6,9 @@
 #include <avr/pgmspace.h> 
 #endif
 
-#include "Tools.h"
-#include "PeggyLib.h"
+#include <tools.h>
+#include <peggylib.h>
+
 #include "Slot.h"
 #include "Luminion.h"
 

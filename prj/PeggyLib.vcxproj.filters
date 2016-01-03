@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClInclude Include="..\src\PeggyLib.h" />
-    <ClInclude Include="..\src\Tools.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\src\PeggyLib.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\.gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\peggylib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\peggylib.h" />
+    <ClInclude Include="..\tools.h" />
   </ItemGroup>
 </Project>
